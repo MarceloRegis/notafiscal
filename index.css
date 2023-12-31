@@ -1,0 +1,74 @@
+.borda {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border: 2px solid black;
+    border-radius: 5px ;
+    padding: 20px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+.linha2{
+    margin-top: 40px !important;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+.linha3{
+    margin-top: 40px !important;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+
+.tomador {
+    padding: 20px !important;
+}
+.prestador{
+    padding: 20px;
+}
+
+.rodape{
+    margin-top: 150px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+}
+
+.site{
+    font-size: 20px;
+}
+
+.pdf{
+    margin-top: 50px;
+}
+
+.print{
+    display: none;
+}
+
+@media print{
+    .print {
+        display: block;
+    }
+
+    .dados{
+        display: none;
+    }
+}
